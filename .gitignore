@@ -1,5 +1,5 @@
 # Hugo build files
-./public
+public
 /resources/_gen/
 /hugo_stats.json
 
