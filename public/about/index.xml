@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on malekoa.com</title>
+    <link>http://localhost:1313/about/</link>
+    <description>Recent content in Abouts on malekoa.com</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/about/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/about/</guid>
+      <description>This blog is for keeping track of stuff I&amp;rsquo;m building/learning to build.&#xA;I started this blog in my spare time when I was interning at Amazon in Summer 2024 in Vancouver.&#xA;I&amp;rsquo;m finishing up my computer science degree at Concordia University in Montreal, and I&amp;rsquo;m also doing a minor in linguistics. I&amp;rsquo;m interested in getting really good at building software using Go, so most of the stuff I write about will be related to that.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event-Queue-Services on malekoa.com</title>
+    <link>http://localhost:1313/event-queue-service/</link>
+    <description>Recent content in Event-Queue-Services on malekoa.com</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jun 2024 19:26:35 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/event-queue-service/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event Queue Service</title>
+      <link>http://localhost:1313/event-queue-service/event-queue-service/</link>
+      <pubDate>Sat, 15 Jun 2024 19:26:35 -0700</pubDate>
+      <guid>http://localhost:1313/event-queue-service/event-queue-service/</guid>
+      <description>When working with microservices, it&amp;rsquo;s important to keep services decoupled. This makes it easier to change one component without affecting the others. But these services still need to communicate with each other. One way to do this is to have components send messages directly to each other. But this can lead to tight coupling between components, making it harder to change one component without affecting the others.&#xA;A better way to have components communicate is to use an event queue.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on malekoa.com</title>
+    <link>https://example.org/posts/</link>
+    <description>Recent content in Posts on malekoa.com</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Jun 2024 19:26:35 -0700</lastBuildDate>
+    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Event Queue Service Using Go</title>
+      <link>https://example.org/posts/event-queue-service/</link>
+      <pubDate>Sat, 15 Jun 2024 19:26:35 -0700</pubDate>
+      <guid>https://example.org/posts/event-queue-service/</guid>
+      <description>This post documents the process of developing an event queue service in Go. To see the full code, check out the Github repository&#xA;Introduction When working with microservices, it&amp;rsquo;s important to keep your services decoupled. This makes it easier to change one component without affecting the others. But your services still need to communicate with each other. One way to do this is to have components send messages directly to each other.</description>
+    </item>
+  </channel>
+</rss>

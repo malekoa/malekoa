@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.127.0">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Event Queue Service &middot; malekoa.com</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class=" layout-reverse">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://localhost:1313/"><h1>malekoa.com</h1></a>
+      <p class="lead">
+         Notes on things I&#39;m working on. 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="http://localhost:1313/">Home</a></li>
+        <li><a href="/about"> About </a></li><li><a href="https://www.github.com/malekoa/"> GitHub </a></li><li><a href="https://www.linkedin.com/in/malekoa/"> LinkedIn </a></li>
+      </ul>
+    </nav>
+
+    <p>
+      This work is licensed under a
+      <a href="#">
+        Creative Commons Attribution-ShareAlike 4.0 International License.
+      </a>
+      This blog was made with
+      <a href=""> Hugo. </a>
+    </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Event Queue Service</h1>
+  <time datetime=2024-06-15T19:26:35-0700 class="post-date">Sat, Jun 15, 2024</time>
+  <p>When working with microservices, it&rsquo;s important to keep services decoupled. This makes it easier to change one component without affecting the others. But these services still need to communicate with each other. One way to do this is to have components send messages directly to each other. But this can lead to tight coupling between components, making it harder to change one component without affecting the others.</p>
+<p>A better way to have components communicate is to use an event queue. An event queue is a service that lets components send messages to each other without having to know anything about each other.</p>
+<p>An event queue consists of three main components:</p>
+<ol>
+<li>A producer, which sends messages to the queue.</li>
+<li>A queue, which stores messages until they are consumed.</li>
+<li>A consumer, which reads messages from the queue.</li>
+</ol>
+<p>In this post, I&rsquo;ll design and build an event queue service that can be used to send messages between components in a distributed system. Then, I&rsquo;ll show it in action by building a random number generator component that sends random numbers to a logger component.</p>
+
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>
