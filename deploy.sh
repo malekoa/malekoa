@@ -16,3 +16,9 @@ git add .
 git commit -m "Deploying site"
 git remote add origin $REPO
 git push -f origin $BRANCH
+
+# Go back to the root directory
+cd ..
+
+# Remove the public directory
+rm -rf public

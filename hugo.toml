@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://malekoa.netlify.app'
 languageCode = 'en-us'
 title = 'malekoa.com'
 theme = 'hyde'
