@@ -1,0 +1,21 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'malekoa.com'
+theme = 'hyde'
+
+[params]
+  layoutReverse = true
+  description = "Notes on things I'm working on."
+
+[Menus]
+  main = [
+      {Name = "About", URL = "/about"},
+      {Name = "GitHub", URL = "https://www.github.com/malekoa/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/malekoa/"}
+  ]
+
+[markup]
+  [markup.highlight]
+    noClasses = true
+    style = "gruvbox"
+    codeFences = true
